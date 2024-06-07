@@ -3,8 +3,8 @@ import Link from "next/link"
 
 const Footer = () => {
     return (
-        <div className="w-full h-[247px] bg-black text-white flex flex-col justify-around text-[#D9D9D9] items-center">
-            <div className="flex w-[90%] mt-[2em] mb-[2em] gap-[13%]">
+        <div className="w-full bg-black text-white flex flex-col justify-around text-[#D9D9D9] items-center">
+            <div className="lg:flex-row flex flex-col w-[90%] mt-[2em] mb-[2em] gap-[13%]">
                 <div className=" flex flex-col h-[100px] justify-around">
                     <Link href={"/"} className="text-[16px] ">
                         Home
