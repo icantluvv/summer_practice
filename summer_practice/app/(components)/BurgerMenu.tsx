@@ -36,7 +36,7 @@ const BurgerMenu = () => {
     }, [])
 
     return (
-        <header className="w-full flex lg:hidden fixed flex-col items-center">
+        <header className="w-full flex lg:hidden fixed z-10 flex-col items-center">
             <section className="w-full bg-white h-[100px] flex justify-center border-b ">
                 <div className="w-[90%] flex items-center justify-between">
                     <div className=" flex mt-[2vh]">
@@ -122,13 +122,13 @@ const BurgerMenu = () => {
                             href={"/"}
                             className=" text-[30px] font-reg  border-black"
                         >
-                            about
+                            news
                         </Link>
                         <Link
                             href={"/"}
                             className="text-[30px] font-reg border-black"
                         >
-                            contact
+                            contacts
                         </Link>
                     </nav>
                 </div>

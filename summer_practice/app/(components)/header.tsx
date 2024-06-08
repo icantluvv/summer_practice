@@ -15,7 +15,7 @@ const Header = () => {
                         layout="responsive"
                         className="max-w-[50px]"
                     ></Image>
-                    <h1 className="font-bold text-[34px] ml-[0.2em]">Games</h1>
+                    <h1 className="font-bold text-[34px]  ml-[0.2em]">Games</h1>
                 </Link>
                 <nav className=" h-full  flex items-center gap-20">
                     <Link
@@ -34,13 +34,13 @@ const Header = () => {
                         href={"/"}
                         className="hover:border-b-[3px] text-[16px] font-medium  border-black"
                     >
-                        About
+                        News
                     </Link>
                     <Link
                         href={"/"}
                         className="hover:border-b-[3px] text-[16px] font-medium border-black"
                     >
-                        Contact
+                        Contacts
                     </Link>
                 </nav>
 
