@@ -22,11 +22,16 @@ const ProductCard = () => {
                     Игра предназначена для игроков...
                 </p>
                 <div className="flex w-full lg:flex-row flex-col mb-[2em] items-center gap-2 lg:gap-0 justify-between">
-                    <span className="text-[22px] font-bold">7 550₽</span>
-                    <span className="text-[14px] font-bold text-[#CECECE] lg:r-[3em]">
-                        10 260₽
-                    </span>
-                    <button className="bg-black text-white text-[11px]  w-full lg:max-w-[144px] pt-[1em] pb-[1em] pl-[4em] pr-[4em] max-h-[35px]">
+                    <div className="flex flex-col lg:flex-row items-center">
+                        <span className="text-[22px] font-bold mr-[7px]">
+                            7 550₽
+                        </span>
+                        <span className="text-[14px] font-bold text-[#CECECE]">
+                            10 260₽
+                        </span>
+                    </div>
+
+                    <button className="bg-black text-white text-[11px]  w-full lg:max-w-[135px] pt-[1em] pb-[1em] pl-[4em] pr-[4em] max-h-[35px]">
                         Buy Now
                     </button>
                 </div>

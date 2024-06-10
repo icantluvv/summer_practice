@@ -39,10 +39,12 @@ export default function Home() {
                     </p>
                 </div>
 
-                <div className="flex gap-10 justify-center">
-                    <PromoCard></PromoCard>
-                    <PromoCard></PromoCard>
-                    <PromoCard></PromoCard>
+                <div className="flex overflow-x-auto scrollbar-hide snap-x snap-mandatory ">
+                    <div className="flex gap-10">
+                        <PromoCard></PromoCard>
+                        <PromoCard></PromoCard>
+                        <PromoCard></PromoCard>
+                    </div>
                 </div>
             </div>
 
@@ -51,7 +53,7 @@ export default function Home() {
                     Our Products
                 </h1>
 
-                <div className="flex justify-center sm:justify-start gap-4 pl-[1em] pr-[1em] flex-wrap ">
+                <div className="flex justify-center max-w-[97%] gap-4 flex-wrap">
                     <ProductCard></ProductCard>
                     <ProductCard></ProductCard>
                     <ProductCard></ProductCard>
