@@ -59,7 +59,7 @@ export default function Home() {
                     <ProductCard></ProductCard>
                 </div>
 
-                <button className="border-2 border-black text-[16px] mt-[3em] font-bold p-[4em] pt-[0.5em] pb-[0.5em]">
+                <button className="hover:bg-[#F6F6F6] transition transition-100 active:bg-[#CECECE] border-2 border-black text-[16px] mt-[3em] font-bold p-[4em] pt-[0.5em] pb-[0.5em]">
                     Show More
                 </button>
             </div>

@@ -31,7 +31,7 @@ const ProductCard = () => {
                         </span>
                     </div>
 
-                    <button className="bg-black text-white text-[11px]  w-full lg:max-w-[135px] pt-[1em] pb-[1em] pl-[4em] pr-[4em] max-h-[35px]">
+                    <button className="hover:bg-white transition transition-100 hover:text-black font-semibold hover:border-2 border-black bg-black text-white text-[11px]  w-full lg:max-w-[120px]  h-[35px]">
                         Buy Now
                     </button>
                 </div>
