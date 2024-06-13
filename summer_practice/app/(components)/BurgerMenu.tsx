@@ -113,7 +113,7 @@ const BurgerMenu = () => {
                             home
                         </Link>
                         <Link
-                            href={"/"}
+                            href={"/shop"}
                             className="text-[30px] font-reg border-black"
                         >
                             shop

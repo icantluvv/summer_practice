@@ -6,37 +6,41 @@ const Footer = () => {
         <div className="w-full bg-black text-white flex flex-col justify-around text-[#D9D9D9] items-center">
             <div className="lg:flex-row flex flex-col w-[90%] mt-[2em] mb-[2em] gap-[13%]">
                 <div className=" flex flex-col h-[100px] justify-around">
-                    <Link href={"/"} className="text-[16px] ">
-                        Home
+                    <Link href={"/"} className="text-[16px] h-[27px] ">
+                        <span className="hover:border-b-[3px]">Home</span>
                     </Link>
-                    <Link href={"/help"} className="text-[16px] ">
-                        Help
-                    </Link>
-                </div>
-                <div className=" flex flex-col  h-[100px] justify-around ">
-                    <Link href={"/shop"} className="text-[16px] ">
-                        Shop
-                    </Link>
-                    <Link href={"/Payment"} className="text-[16px] ">
-                        Payment Options
+                    <Link href={"/help"} className="text-[16px] h-[27px]">
+                        <span className="hover:border-b-[3px]">Help</span>
                     </Link>
                 </div>
-
-                <div className=" flex flex-col  h-[100px] justify-around">
-                    <Link href={"/about"} className="text-[16px] ">
-                        About
+                <div className=" flex flex-col h-[100px] justify-around ">
+                    <Link href={"/shop"} className="text-[16px]  h-[27px]">
+                        <span className="hover:border-b-[3px]">Shop</span>
                     </Link>
-                    <Link href={"/returns"} className="text-[16px] ">
-                        Returns
+                    <Link href={"/Payment"} className="text-[16px]  h-[27px]">
+                        <span className="hover:border-b-[3px]">
+                            Payment Options
+                        </span>
                     </Link>
                 </div>
 
                 <div className=" flex flex-col  h-[100px] justify-around">
-                    <Link href={"/contacts"} className="text-[16px] ">
-                        Contacts
+                    <Link href={"/about"} className="text-[16px]  h-[27px]">
+                        <span className="hover:border-b-[3px]">About</span>
                     </Link>
-                    <Link href={"/privacy"} className="text-[16px] ">
-                        Privacy Policies
+                    <Link href={"/returns"} className="text-[16px]  h-[27px]">
+                        <span className="hover:border-b-[3px]">Returns</span>
+                    </Link>
+                </div>
+
+                <div className=" flex flex-col  h-[100px] justify-around">
+                    <Link href={"/contacts"} className="text-[16px]  h-[27px]">
+                        <span className="hover:border-b-[3px]">Contacts</span>
+                    </Link>
+                    <Link href={"/privacy"} className="text-[16px] h-[27px]">
+                        <span className="hover:border-b-[3px]">
+                            Privacy Policies
+                        </span>
                     </Link>
                 </div>
             </div>

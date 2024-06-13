@@ -17,28 +17,28 @@ const Header = () => {
                     ></Image>
                     <h1 className="font-bold text-[34px]  ml-[0.2em]">Games</h1>
                 </Link>
-                <nav className=" h-full  flex items-center gap-20">
+                <nav className="h-[25px] flex items-center gap-20 ">
                     <Link
                         href={"/"}
-                        className="hover:border-b-[3px] text-[16px] font-medium border-black"
+                        className="hover:border-b-[3px] h-[27px] text-[16px] font-medium border-black"
                     >
                         Home
                     </Link>
                     <Link
                         href={"/shop"}
-                        className="hover:border-b-[3px] text-[16px] font-medium border-black"
+                        className="hover:border-b-[3px] h-[27px] text-[16px] font-medium border-black"
                     >
                         Shop
                     </Link>
                     <Link
                         href={"/"}
-                        className="hover:border-b-[3px] text-[16px] font-medium  border-black"
+                        className="hover:border-b-[3px] h-[27px] text-[16px] font-medium  border-black"
                     >
                         News
                     </Link>
                     <Link
                         href={"/"}
-                        className="hover:border-b-[3px] text-[16px] font-medium border-black"
+                        className="hover:border-b-[3px] h-[27px] text-[16px] font-medium border-black"
                     >
                         Contacts
                     </Link>
