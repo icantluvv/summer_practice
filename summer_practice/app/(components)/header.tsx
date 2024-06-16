@@ -17,6 +17,7 @@ const Header = () => {
                     ></Image>
                     <h1 className="font-bold text-[34px]  ml-[0.2em]">Games</h1>
                 </Link>
+                
                 <nav className="h-[25px] flex items-center gap-20 ">
                     <Link
                         href={"/"}
@@ -31,13 +32,13 @@ const Header = () => {
                         Shop
                     </Link>
                     <Link
-                        href={"/"}
+                        href={"/news"}
                         className="hover:border-b-[3px] h-[27px] text-[16px] font-medium  border-black"
                     >
                         News
                     </Link>
                     <Link
-                        href={"/"}
+                        href={"/contacts"}
                         className="hover:border-b-[3px] h-[27px] text-[16px] font-medium border-black"
                     >
                         Contacts

@@ -14,7 +14,9 @@ const PromoCard = () => {
                     className="lg:w-[386px] lg:h-[357px] w-[356px] h-[337px]"
                 ></Image>
             </div>
-            <h1 className="text-[24px] font-bold mt-[1em]">Экшн</h1>
+            <span className="text-[24px] font-bold mt-[1em]">
+                <h1>Экшн</h1>
+            </span>
         </div>
     )
 }

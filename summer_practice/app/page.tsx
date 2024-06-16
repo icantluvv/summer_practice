@@ -4,7 +4,7 @@ import PromoCard from "./(components)/PromoCard"
 export default function Home() {
     return (
         <main className="w-full relative flex flex-col items-center text-[#333333]">
-            <div className="w-full relative lg:min-h-[650px] min-h-[550px] lg:mt-0 mt-[6em] ">
+            <section className="w-full relative lg:min-h-[650px] min-h-[550px] lg:mt-0 mt-[6em] ">
                 <div className="w-full bg-black h-[100%] absolute z-5 opacity-40"></div>
                 <Image
                     src={"/images/back.svg"}
@@ -13,21 +13,23 @@ export default function Home() {
                     objectFit="cover"
                     className=" w-full"
                 ></Image>
-            </div>
+            </section>
 
-            <div className="absolute w-[70%] z-6 max-w-[600px] flex flex-col gap-2 lg:w-[46%] mt-[12em] lg:mt-0 text-white lg:text-black lg:bg-white lg:right-[5%] lg:top-[10%] lg:p-[3em]">
-                <h4 className="text-16px font-semibold">New Arrival</h4>
-                <h1 className="text-[50px] font-bold">
-                    Discover Our New Collection
-                </h1>
-                <p className="text-18px font-semibold">
-                    Experience the luxury of our new lipsticks and elevate your
-                    beauty routine today.
-                </p>
-            </div>
+            <section className="absolute w-[90%] z-6 max-w-[600px] lg:w-[46%] mt-[12em] lg:mt-0 lg:bg-white lg:right-[5%]  lg:top-[10%] lg:p-[3em]">
+                <span className=" flex flex-col gap-2 w-full text-white lg:text-black text-center">
+                    <h4 className="text-16px font-semibold">New Arrival</h4>
+                    <h1 className="text-[50px] font-bold w-full">
+                        Discover Our New Collection
+                    </h1>
+                    <p className="text-18px font-semibold">
+                        Experience the luxury of our new lipsticks and elevate
+                        your beauty routine today.
+                    </p>
+                </span>
+            </section>
 
-            <div className="flex flex-col mt-[3em] w-full items-center">
-                <div className="flex flex-col w-full items-center mb-[4em]">
+            <section className="flex flex-col mt-[3em] w-full items-center">
+                <span className="flex flex-col w-full items-center mb-[4em]">
                     <h1 className=" text-[32px] mb-[0.5em] font-bold">
                         Browse The Range
                     </h1>
@@ -37,7 +39,7 @@ export default function Home() {
                         matte finish, a glossy shine, or long-lasting color, our
                         collection has the perfect lipstick for you.
                     </p>
-                </div>
+                </span>
 
                 <div className="flex overflow-x-auto scrollbar-hide snap-x snap-mandatory ">
                     <div className="flex gap-10">
@@ -46,9 +48,9 @@ export default function Home() {
                         <PromoCard></PromoCard>
                     </div>
                 </div>
-            </div>
+            </section>
 
-            <div className="w-full flex flex-col mt-[1.5em] mb-[3em] items-center">
+            <section className="w-full flex flex-col mt-[1.5em] mb-[3em] items-center">
                 <h1 className="text-[32px] mb-[0.5em] font-bold">
                     Our Products
                 </h1>
@@ -62,7 +64,7 @@ export default function Home() {
                 <button className="hover:bg-[#F6F6F6] transition transition-100 active:bg-[#CECECE] border-2 border-black text-[16px] mt-[3em] font-bold p-[4em] pt-[0.5em] pb-[0.5em]">
                     Show More
                 </button>
-            </div>
+            </section>
         </main>
     )
 }

@@ -3,55 +3,56 @@ import Link from "next/link"
 
 const Footer = () => {
     return (
-        <div className="w-full bg-black text-white flex flex-col justify-around text-[#D9D9D9] items-center">
-            <div className="lg:flex-row flex flex-col w-[90%] mt-[2em] mb-[2em] gap-[13%]">
+        <footer className="w-full bg-black text-white flex flex-col justify-around text-[#D9D9D9] items-center">
+            <section className="lg:flex-row flex flex-col w-[90%] mt-[2em] mb-[2em] gap-[13%]">
                 <div className=" flex flex-col h-[100px] justify-around">
                     <Link href={"/"} className="text-[16px] h-[27px] ">
-                        <span className="hover:border-b-[3px]">Home</span>
+                        <h1 className="hover:border-b-[3px]">Home</h1>
                     </Link>
                     <Link href={"/help"} className="text-[16px] h-[27px]">
-                        <span className="hover:border-b-[3px]">Help</span>
+                        <h1 className="hover:border-b-[3px]">Help</h1>
                     </Link>
                 </div>
                 <div className=" flex flex-col h-[100px] justify-around ">
                     <Link href={"/shop"} className="text-[16px]  h-[27px]">
-                        <span className="hover:border-b-[3px]">Shop</span>
+                        <h1 className="hover:border-b-[3px]">Shop</h1>
                     </Link>
                     <Link href={"/Payment"} className="text-[16px]  h-[27px]">
-                        <span className="hover:border-b-[3px]">
+                        <h1 className="hover:border-b-[3px]">
                             Payment Options
-                        </span>
+                        </h1>
                     </Link>
                 </div>
 
                 <div className=" flex flex-col  h-[100px] justify-around">
                     <Link href={"/about"} className="text-[16px]  h-[27px]">
-                        <span className="hover:border-b-[3px]">About</span>
+                        <h1 className="hover:border-b-[3px]">About</h1>
                     </Link>
                     <Link href={"/returns"} className="text-[16px]  h-[27px]">
-                        <span className="hover:border-b-[3px]">Returns</span>
+                        <h1 className="hover:border-b-[3px]">Returns</h1>
                     </Link>
                 </div>
 
                 <div className=" flex flex-col  h-[100px] justify-around">
                     <Link href={"/contacts"} className="text-[16px]  h-[27px]">
-                        <span className="hover:border-b-[3px]">Contacts</span>
+                        <h1 className="hover:border-b-[3px]">Contacts</h1>
                     </Link>
                     <Link href={"/privacy"} className="text-[16px] h-[27px]">
-                        <span className="hover:border-b-[3px]">
+                        <h1 className="hover:border-b-[3px]">
                             Privacy Policies
-                        </span>
+                        </h1>
                     </Link>
                 </div>
-            </div>
+            </section>
 
             <div className="w-[90%] h-[1px] bg-[#D9D9D9] opacity-40"></div>
-            <div className="w-[90%] mb-[2em]">
-                <p className="text-[#D9D9D9] opacity-50">
-                    2024 Games All rights reverved
-                </p>
-            </div>
-        </div>
+
+            <section className="w-[90%] mb-[2em]">
+                <span className="text-[#D9D9D9] opacity-50">
+                    <p>2024 Games All rights reverved</p>
+                </span>
+            </section>
+        </footer>
     )
 }
 

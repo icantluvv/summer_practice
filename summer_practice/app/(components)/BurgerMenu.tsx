@@ -37,10 +37,10 @@ const BurgerMenu = () => {
 
     return (
         <header className="w-full flex lg:hidden fixed z-10 flex-col items-center">
-            <section className="w-full bg-white h-[100px] flex justify-center border-b ">
+            <section className="w-full bg-white h-[100px] flex justify-center items-center border-b ">
                 <div className="w-[90%] flex items-center justify-between">
-                    <div className=" flex mt-[2vh]">
-                        <Link className=" flex w-full" href={"/"}>
+                    <div className=" flex ">
+                        <Link className=" flex w-full items-center" href={"/"}>
                             <Image
                                 src={"/images/logo.svg"}
                                 alt={"logo"}
@@ -49,7 +49,7 @@ const BurgerMenu = () => {
                                 layout="responsive"
                                 className="max-w-[50px]"
                             ></Image>
-                            <h1 className="font-bold text-[34px] ml-[0.2em]  ">
+                            <h1 className="font-bold text-[34px] ml-[0.2em] ">
                                 Games
                             </h1>
                         </Link>
@@ -63,11 +63,7 @@ const BurgerMenu = () => {
                         id="close-button"
                     >
                         <Image
-                            src={
-                                // showBurger
-                                "/images/closeburger.svg"
-                                // : "/images/burger.svg"
-                            }
+                            src={"/images/closeburger.svg"}
                             alt={showBurger ? "close-button" : "burger-button"}
                             width={60}
                             height={60}
@@ -94,7 +90,8 @@ const BurgerMenu = () => {
                     </button>
                 </div>
             </section>
-            <div className="relatie w-full z-[-10]">
+
+            <section className="relatie w-full z-[-10]">
                 <div
                     ref={menuRef}
                     className={`w-full flex justify-center overflow-hidden transition-max-height duration-300 ${
@@ -132,7 +129,7 @@ const BurgerMenu = () => {
                         </Link>
                     </nav>
                 </div>
-            </div>
+            </section>
         </header>
     )
 }
