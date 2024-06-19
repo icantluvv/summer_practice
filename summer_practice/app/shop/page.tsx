@@ -18,7 +18,7 @@ const Shop = () => {
                     ></Image>
                 </div>
 
-                <div className="w-full flex justify-start items-center pl-[5%] absolute bottom-0 left-0 h-[100px] bg-[#E8E8E8]">
+                <div className="w-full flex justify-start items-center lg:pl-[5%] absolute bottom-0 left-0 h-[100px] bg-[#E8E8E8]">
                     <div className="lg:max-w-[28px] w-[35px] ml-[1.5em]">
                         <Image
                             src={"/images/how.svg"}
@@ -29,7 +29,7 @@ const Shop = () => {
                         ></Image>
                     </div>
                     <div className="w-[2px] h-[37px] bg-[#9F9F9F] ml-[1.5em] lg:block hidden"></div>
-                    <div className=" lg:ml-[1.5em] font-normal flex">
+                    <div className="lg:ml-[1.5em] font-normal flex">
                         <SwitchCount></SwitchCount>
                         <SortBy></SortBy>
                     </div>

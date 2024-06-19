@@ -21,7 +21,7 @@ const CartProduct = () => {
                     </span>
                 </div>
                 <div className="lg:w-[30%] w-full">
-                    <span className="flex justify-center ">
+                    <span className="flex lg:justify-start justify-center">
                         <p>7599p</p>
                     </span>
                 </div>
@@ -36,7 +36,7 @@ const CartProduct = () => {
                         +
                     </button>
                 </div>
-                <div className="absolute top-5 lg:h-full lg:top-0 right-[5%] lg:right-3 flex items-center">
+                <div className="absolute top-5 lg:h-full lg:top-0 right-[5%] lg:right-2 flex items-center">
                     <button>
                         <div>
                             <Image

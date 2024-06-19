@@ -9,7 +9,7 @@ const ProductCard = () => {
                 href={""}
                 className="w-full h-full flex flex-col items-center"
             >
-                <div className="w-[70%] lg:mb-[3em] mb-[1em]">
+                <div className="w-[70%] lg:mb-[2em] mb-[1em]">
                     <Image
                         src={"/images/spider.svg"}
                         alt={"spider"}
@@ -20,8 +20,8 @@ const ProductCard = () => {
                 </div>
 
                 <div className="flex flex-col  items-start lg:gap-4 gap-2 w-[90%] ">
-                    <span className="lg:line-clamp-1 line-clamp-2 text-center">
-                        <h1 className="font-medium xl:text-[20px] text-[14px] ">
+                    <span className="line-clamp-2 text-center w-full">
+                        <h1 className="font-medium lg:text-[20px] text-[14px]">
                             Игра Spider-Man 2 Standard Edition
                         </h1>
                     </span>
