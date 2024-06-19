@@ -1,10 +1,13 @@
 import React from "react"
 import Image from "next/image"
 import ProductCard from "../(components)/productCard"
+import SimilarProduct from "../(components)/similarProductCard"
+import ScrollerSimilar from "../(components)/scrollerSimilar"
+import SimilarProductsScroller from "../(components)/SimilarProductsScroller"
 
 const page = () => {
     return (
-        <main className="pt-[100px] lg:pt-0 min-h-screen flex flex-col items-center">
+        <main className="pt-[100px] lg:pt-0 min-h-screen flex mb-[2em] flex-col items-center">
             <section className="w-full flex pl-[5%] mt-[2em] items-center justify-between pr-[5%]">
                 <h1 className="font-semibold text-[24px]">Избранные товары</h1>
                 <div>
@@ -24,10 +27,18 @@ const page = () => {
                 <ProductCard></ProductCard>
             </section>
 
-            <section className="w-[90%] flex flex-col my-[3em]">
-                <h1 className="font-semibold text-[24px] mb-[1em]">
-                    Похожие товары
-                </h1>
+            <section className="w-full px-[5%] flex flex-col my-[1em]">
+                <h1 className="font-semibold text-[24px] ">Похожие товары</h1>
+                {/* <div className="w-full flex gap-4 mt-[3em] overflow-x-auto scrollbar-hide">
+                    <SimilarProduct></SimilarProduct>
+                    <SimilarProduct></SimilarProduct>
+                    <SimilarProduct></SimilarProduct>
+                    <SimilarProduct></SimilarProduct>
+                    <SimilarProduct></SimilarProduct>
+                    <SimilarProduct></SimilarProduct>
+                    <SimilarProduct></SimilarProduct>
+                </div> */}
+                <SimilarProductsScroller />
             </section>
         </main>
     )

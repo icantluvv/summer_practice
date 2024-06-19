@@ -15,7 +15,7 @@ export default function Home() {
                 ></Image>
             </section>
 
-            <section className="absolute w-[90%] z-6 max-w-[600px] lg:w-[46%] mt-[12em] lg:mt-0 lg:bg-white lg:right-[5%]  lg:top-[10%] lg:p-[3em]">
+            <section className="absolute w-[90%] z-6 max-w-[600px] lg:w-[46%] max-[450px]:mt-[13em] mt-[16em] lg:mt-0 lg:bg-white lg:right-[5%]  lg:top-[5%] lg:p-[3em]">
                 <span className=" flex flex-col gap-2 w-full text-white lg:text-black text-center">
                     <h4 className="text-16px font-semibold">New Arrival</h4>
                     <h1 className="text-[50px] font-bold w-full">
@@ -55,7 +55,7 @@ export default function Home() {
                     Our Products
                 </h1>
 
-                <div className="flex justify-center max-w-[97%] gap-4 flex-wrap">
+                <div className="flex lg:justify-center justify-between px-[5%] gap-4 flex-wrap">
                     <ProductCard></ProductCard>
                     <ProductCard></ProductCard>
                     <ProductCard></ProductCard>
