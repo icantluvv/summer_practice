@@ -17,7 +17,7 @@ const Header = () => {
                     ></Image>
                     <h1 className="font-bold text-[34px]  ml-[0.2em]">Games</h1>
                 </Link>
-                
+
                 <nav className="h-[25px] flex items-center gap-20 ">
                     <Link
                         href={"/"}
@@ -66,7 +66,7 @@ const Header = () => {
                             className="max-w-[28px]"
                         ></Image>
                     </button>
-                    <button>
+                    <Link href={"/likes"}>
                         <Image
                             src={"/images/likes.svg"}
                             alt={"likes"}
@@ -75,7 +75,7 @@ const Header = () => {
                             width={28}
                             className="max-w-[28px]"
                         ></Image>
-                    </button>
+                    </Link>
                     <Link href={"/cart"}>
                         <Image
                             src={"/images/cart.svg"}

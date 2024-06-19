@@ -4,6 +4,7 @@ import "./globals.css"
 import Header from "./(components)/header"
 import Footer from "./(components)/footer"
 import BurgerMenu from "./(components)/BurgerMenu"
+import BottomNav from "./(components)/bottomNav"
 
 const inter = Inter({ subsets: ["latin"] })
 
@@ -23,6 +24,7 @@ export default function RootLayout({
                 <Header />
                 <BurgerMenu />
                 {children}
+                <BottomNav />
                 <Footer />
             </body>
         </html>

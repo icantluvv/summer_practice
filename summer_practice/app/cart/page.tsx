@@ -1,12 +1,23 @@
 import React from "react"
-
-import CartProduct from "../(components)/cartProduct"
+import Image from "next/image"
+import CartProduct from "../(components)/cartProductCard"
 
 const page = () => {
     return (
         <main className="w-full min-h-[41em] lg:pt-0 pt-[100px] flex lg:justify-center">
-            <section className=" w-full lg:w-[90%] justify-between lg:justify-around items-center lg:items-start mt-[4em] flex lg:flex-row flex-col">
-                <div className="flex flex-col lg:w-[73%]  max-w-[800px] w-full">
+            <section className=" w-full lg:w-[90%] justify-between lg:justify-around items-center lg:items-start  flex lg:flex-row flex-col">
+                <span className="w-full flex pl-[5%] mt-[2em] mb-[2em] items-center justify-between pr-[5%]">
+                    <h1 className="font-semibold text-[24px]">Корзина</h1>
+                    <div>
+                        <Image
+                            src={"/images/cart.svg"}
+                            alt={""}
+                            width={28}
+                            height={28}
+                        ></Image>
+                    </div>
+                </span>
+                <div className="flex flex-col lg:w-[73%]  max-w-[800px] w-full items-center lg:items-start">
                     <div className="bg-[#e8e8e8] w-full h-[55px]  items-center lg:flex hidden">
                         <ul className="flex w-full font-semibold ">
                             <li className="w-[50%] pl-4">Продукт</li>
@@ -28,7 +39,7 @@ const page = () => {
                                 <p>7599р</p>
                             </span>
                             <span className="flex w-[90%] justify-between ">
-                                <p>Выгода:</p>
+                                <p>Скидка:</p>
                                 <p>0р</p>
                             </span>
                         </div>

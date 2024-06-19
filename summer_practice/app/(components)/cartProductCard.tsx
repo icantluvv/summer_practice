@@ -3,8 +3,8 @@ import Image from "next/image"
 
 const CartProduct = () => {
     return (
-        <div className="w-full flex  mt-6 border-b pb-5">
-            <div className="flex text-[16px] items-center w-full lg:flex-row flex-col relative">
+        <div className="w-[90%] lg:w-full flex  mt-6 border-b pb-5">
+            <div className="flex text-[16px] items-center w-full lg:flex-row flex-col relative ">
                 <div className="lg:w-[50%] w-[100%] px-2 flex lg:flex-row flex-col lg:gap-x-6 gap-y-4 items-center  ">
                     <div className="lg:max-w-[107px] w-[30%] lg:min-w-[107px] min-w-[170px]">
                         <Image
@@ -21,11 +21,11 @@ const CartProduct = () => {
                     </span>
                 </div>
                 <div className="lg:w-[30%] w-full">
-                    <span className="flex justify-center">
+                    <span className="flex justify-center ">
                         <p>7599p</p>
                     </span>
                 </div>
-                <div className="lg:w-[14%] w-[50%] lg:max-w-full max-w-[160px] flex justify-around items-center">
+                <div className="lg:w-[14%] w-[50%] lg:max-w-full max-w-[160px] flex justify-around items-center mt-[1em] lg:mt-0">
                     <button className="w-[30px] h-[30px] border border-[#e9e9e9] text-[#a9a9a9] flex items-center justify-center rounded-[5px] active:bg-[#e9e9e9]">
                         -
                     </button>
