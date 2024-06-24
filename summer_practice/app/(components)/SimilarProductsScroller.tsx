@@ -26,7 +26,7 @@ const SimilarProductsScroller = () => {
     }
 
     return (
-        <section className="w-full px-[5%] flex flex-col my-[1em]">
+        <div className="w-full px-[5%] flex flex-col my-[1em]">
             <div
                 ref={similarProductsRef}
                 className="w-full flex gap-4 mt-[3em] overflow-x-auto scrollbar-hide"
@@ -43,7 +43,7 @@ const SimilarProductsScroller = () => {
                 onScrollLeft={scrollLeft}
                 onScrollRight={scrollRight}
             />
-        </section>
+        </div>
     )
 }
 

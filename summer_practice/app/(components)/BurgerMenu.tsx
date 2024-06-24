@@ -116,7 +116,7 @@ const BurgerMenu = () => {
                             shop
                         </Link>
                         <Link
-                            href={"/"}
+                            href={"/news"}
                             className=" text-[30px] font-reg  border-black"
                         >
                             news
